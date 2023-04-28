@@ -150,9 +150,10 @@ a {
     }
     .close {
         position: absolute;
-        bottom: 10px;
-        left: 50%;
-        transform: translateX(-50%);
+        left: auto;
+        right: 1%;
+        transform: translateX(0);
+        bottom: 2%;
         font-size: 2rem;
         z-index: 2;
         background-color: rgba(0, 0, 0, 0.7);
